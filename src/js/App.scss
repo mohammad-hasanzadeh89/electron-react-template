@@ -1,0 +1,52 @@
+::-webkit-scrollbar-track {
+    background-color: #e9e9e9;
+    width: 100px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #4da9e4;
+    border-radius: 10px;
+    border: 2px #e9e9e9 solid;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .App {
+    flex: 1 1 auto;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 98vw;
+    position: relative;
+    direction: rtl;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  
+    min-width: 780px;
+  }
+  
+  /* .content {
+  } */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    align-self: center;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  input {
+    outline: none;
+  }
